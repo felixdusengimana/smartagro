@@ -1,4 +1,3 @@
-// pages/index.js
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaLeaf, FaPlay, FaQuoteLeft, FaArrowRight } from 'react-icons/fa'
@@ -8,7 +7,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-green-800 text-white py-4 px-6 md:px-12">
+      <nav className="bg-[#334B35] text-white py-4 px-6 md:px-12">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-xl font-bold">Smart Farm</div>
           <div className="hidden md:flex space-x-6">
@@ -142,7 +141,7 @@ export default function Home() {
       {/* Projects Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 md:px-12">
-          <h2 className="text-3xl font-bold text-center mb-12">Explore Our Projects</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#334B35]">Explore Our Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { image: "/images/project1.png", title: "Modern Farming", category: "Agriculture" },
@@ -179,7 +178,7 @@ export default function Home() {
       {/* Testimonials Section */}
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-6 md:px-12">
-          <h2 className="text-3xl font-bold text-center mb-12">WHAT THEY'RE TALKING ABOUT</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#334B35]">WHAT THEY'RE TALKING ABOUT</h2>
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/4 mb-8 md:mb-0 flex justify-center">
               <div className="w-32 h-32 relative overflow-hidden rounded-full">
@@ -258,7 +257,7 @@ export default function Home() {
       {/* News Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 md:px-12">
-          <h2 className="text-3xl font-bold text-center mb-12">News & Articles</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#334B35]">News & Articles</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { 
@@ -309,7 +308,7 @@ export default function Home() {
       {/* Contact Section */}
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-6 md:px-12">
-          <h2 className="text-3xl font-bold text-center mb-12">GET IN TOUCH NOW</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#334B35]">GET IN TOUCH NOW</h2>
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/3 mb-8 md:mb-0">
               <p className="text-gray-600 mb-8">
@@ -378,7 +377,7 @@ export default function Home() {
                   height={40} 
                 />
               </div>
-              <h3 className="text-xl font-bold">We are Leader in Agriculture Market</h3>
+              <h3 className="text-xl font-bold text-[#344C31]">We are Leader in Agriculture Market</h3>
             </div>
           </div>
           <button className="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-6 rounded-md font-medium transition duration-300">
